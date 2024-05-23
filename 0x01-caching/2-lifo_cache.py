@@ -30,7 +30,7 @@ class LIFOCache(BaseCaching):
         """ initialize """
         super().__init__()
 
-    def put(self, key):
+    def put(self, key, item):
         """ assign to the dict """
         if key is None or item is None:
             pass
